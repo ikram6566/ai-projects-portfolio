@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Fifteen working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Twenty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -19,13 +19,19 @@ Fifteen working machine-learning projects, built from scratch and documented end
 | 13 | [Fashion-MNIST Clothing Classification](13-fashion-mnist-classification/) | Deep Learning | **86.5% accuracy** (Neural Network, 10,000-image test set) |
 | 14 | [Loan Credit-Risk Prediction](14-loan-credit-risk/) | Classification | **72.8% accuracy** (Random Forest, German Credit dataset) |
 | 15 | [Rule-Based Chatbot](15-rule-based-chatbot/) | NLP / Rules | **9/9 intent checks passed** (regex intent engine) |
+| 16 | [Bank Marketing Prediction](16-bank-marketing-prediction/) | Classification | **90.8% accuracy** (Random Forest, UCI Bank Marketing, 45,211 clients) |
+| 17 | [Movie Recommendation System](17-movie-recommendation-system/) | Recommender | **RMSE 1.51 vs 1.73 baseline** (SVD, 413,402 real ratings, 0–10 scale) |
+| 18 | [Stock Price Prediction](18-stock-price-prediction/) | Time Series | Honest result: **models did not beat the naive baseline** (MAE $3.07 vs $3.04, AAPL 10 yrs) — random-walk reality check |
+| 19 | [CIFAR-10 Image Classification](19-cifar10-image-classification/) | Deep Learning | **60.0% accuracy** (CNN, full 10,000-image test set) |
+| 20 | [News Topic Classification](20-news-topic-classification/) | NLP | **92.0% accuracy** (TF-IDF + Logistic Regression, AG News 120,000 articles) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
 - **Classic ML:** Logistic Regression, Random Forest — classification & regression (scikit-learn)
 - **NLP:** TF-IDF vectorization, text classification, honest error analysis
-- **Neural networks:** MLP image classification on MNIST
-- **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos
+- **Neural networks:** MLP image classification on MNIST; CNN image classification on CIFAR-10 (TensorFlow/Keras)
+- **Recommenders & time series:** matrix factorization (SVD), chronological splits, return targets, naive-baseline benchmarking
+- **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
 Python · pandas · NumPy · scikit-learn · matplotlib · Jupyter / Google Colab
