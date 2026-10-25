@@ -6,8 +6,8 @@ Five working machine-learning projects, built from scratch and documented end-to
 |---|---|---|---|
 | 1 | [Titanic Survival Prediction](01-titanic-survival/) | Classification | **81.6% accuracy** (Random Forest) |
 | 2 | [House Price Prediction](02-house-price-prediction/) | Regression | **R² 0.809, MAE $32,181** (Random Forest) |
-| 3 | [Sentiment Analysis](03-sentiment-analysis/) | NLP | **82.2% accuracy** (TF-IDF + Logistic Regression) |
-| 4 | [Fake News Detection](04-fake-news-detection/) | NLP | **60.9% accuracy** — with an honest note on the limits of wording-only detection |
+| 3 | [Sentiment Analysis](03-sentiment-analysis/) | NLP | **89.9% accuracy** on IMDb 50,000 reviews (TF-IDF + Logistic Regression) |
+| 4 | [Fake News Detection](04-fake-news-detection/) | NLP | **97.9% accuracy** on 32,470 full articles (LIAR short-statement version: 60.9% — wording is not proof) |
 | 5 | [Handwritten Digit Recognition (MNIST)](05-mnist-digit-recognition/) | Deep Learning | **96.16% accuracy** (Neural Network, 10,000-image test set) |
 
 ## Skills demonstrated
