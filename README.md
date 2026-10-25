@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Ten working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Fifteen working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -14,6 +14,11 @@ Ten working machine-learning projects, built from scratch and documented end-to-
 | 8 | [Breast Cancer Classification](08-breast-cancer-classification/) | Classification | **98.6% accuracy** (Logistic Regression) |
 | 9 | [Wine Quality Prediction](09-wine-quality-prediction/) | Classification | **94.0% accuracy** (Random Forest) |
 | 10 | [Heart Disease Prediction](10-heart-disease-prediction/) | Classification | **86.8% accuracy** (Logistic Regression + Random Forest) |
+| 11 | [Diabetes Prediction](11-diabetes-prediction/) | Classification | **75.5% accuracy** (Random Forest, Pima dataset) |
+| 12 | [Customer Churn Prediction](12-customer-churn-prediction/) | Classification | **80.8% accuracy** (Logistic Regression, Telco dataset) |
+| 13 | [Fashion-MNIST Clothing Classification](13-fashion-mnist-classification/) | Deep Learning | **86.5% accuracy** (Neural Network, 10,000-image test set) |
+| 14 | [Loan Credit-Risk Prediction](14-loan-credit-risk/) | Classification | **72.8% accuracy** (Random Forest, German Credit dataset) |
+| 15 | [Rule-Based Chatbot](15-rule-based-chatbot/) | NLP / Rules | **9/9 intent checks passed** (regex intent engine) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
