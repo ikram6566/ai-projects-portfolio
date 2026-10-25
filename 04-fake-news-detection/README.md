@@ -1,22 +1,18 @@
-# Fake News Detection 📰
+# Fake News Detection — 32,470 Full Articles
 
-Predicting whether a public statement is likely **REAL** or **FAKE** from its wording alone — and being honest about how far wording alone can take you.
+**What it does:** Reads a full news article (headline + body) and predicts **REAL** or **FAKE**.
 
-## Result
-**Accuracy: 60.9%** on 1,267 untouched test statements (LIAR dataset — 12,800+ PolitiFact fact-checked statements, UC Santa Barbara). The 6 original truth ratings are grouped: true / mostly-true / half-true → REAL; false / barely-true / pants-on-fire → FAKE.
+**Dataset (BIG):** ISOT-style fake/real news collection — **32,470 full-length articles** (24,353 train / 8,117 test; median article ≈ 2,200 characters). Real = Reuters wire stories; fake = sites flagged by fact-checkers.
 
-![Confusion Matrix](confusion_matrix.png)
+**Approach:** TF-IDF over headline + body (50,000 unigram+bigram features) → Logistic Regression.
 
-## The honest part
-60.9% is well above a coin flip — sensational wording really does correlate with false claims — but it is nowhere near proof. A statement's *style* is not evidence of its *truth*; real fact-checking needs sources. This model is a triage helper, never a judge. Short political claims are also much harder than full news articles: dataset difficulty matters more than model choice.
+**Verified result (executed notebook):**
+- **Accuracy: 97.9%** on 8,117 unseen test articles (FAKE precision 0.976 / REAL precision 0.982)
+- Demo on the first 8 test articles (not cherry-picked): **7 of 8 correct**
 
-## How it works
-1. Load the LIAR train/test split; binarize the 6-way ratings
-2. TF-IDF features (1–2 word phrases, 20,000 features, English stop-words removed)
-3. Logistic Regression
-4. Evaluate on the untouched test set + a no-cherry-picking demo (the first 8 test statements: 5 of 8 correct, in line with the overall score)
+> **Honest caveats:** (1) This dataset is easier than the real world — real articles are all Reuters copy with a distinctive style, so the model partly learns that style. On the harder LIAR dataset (single short political statements) the same approach scored only **60.9%**. (2) Wording is not proof — a classifier flags suspicious style; only fact-checking verifies a claim. Use it as triage, not as a judge.
 
-## Run it
-Open `fake_news_detection.ipynb` in Jupyter or Google Colab and run all cells — the notebook downloads the dataset itself.
+![Confusion matrix](confusion_matrix.png)
 
-**Tools:** Python, pandas, scikit-learn, matplotlib
+**Files:** `fake_news_detection.ipynb` — notebook with outputs · `confusion_matrix.png`
+**Run it:** Open the notebook in Google Colab or Jupyter — it downloads the dataset itself.
