@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Twenty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Twenty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -24,6 +24,11 @@ Twenty working machine-learning projects, built from scratch and documented end-
 | 18 | [Stock Price Prediction](18-stock-price-prediction/) | Time Series | Honest result: **models did not beat the naive baseline** (MAE $3.07 vs $3.04, AAPL 10 yrs) — random-walk reality check |
 | 19 | [CIFAR-10 Image Classification](19-cifar10-image-classification/) | Deep Learning | **60.0% accuracy** (CNN, full 10,000-image test set) |
 | 20 | [News Topic Classification](20-news-topic-classification/) | NLP | **92.0% accuracy** (TF-IDF + Logistic Regression, AG News 120,000 articles) |
+| 21 | [Credit Card Fraud Detection](21-credit-card-fraud-detection/) | Classification / Imbalanced | **PR-AUC 0.70, fraud recall 88.6%** (284,807 transactions, 0.17% fraud — accuracy deliberately not the headline) |
+| 22 | [Census Income Prediction](22-census-income-prediction/) | Classification | **84.7% accuracy** (Logistic Regression; Random Forest 84.3%, UCI Adult, 30,162 records) |
+| 23 | [Human Activity Recognition](23-human-activity-recognition/) | Classification / Sensors | **95.5% accuracy** (Logistic Regression, UCI HAR, tested on unseen volunteers) |
+| 24 | [Mushroom Classification](24-mushroom-classification/) | Classification | **100% accuracy, 100% poisonous recall** (UCI Mushroom, 8,124 specimens — near-separable dataset, stated plainly) |
+| 25 | [Bike Sharing Demand](25-bike-sharing-demand/) | Regression | **R² 0.918, MAE 33 bikes/hour** (Random Forest, UCI Bike Sharing, 17,379 hours) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -31,6 +36,7 @@ Twenty working machine-learning projects, built from scratch and documented end-
 - **NLP:** TF-IDF vectorization, text classification, honest error analysis
 - **Neural networks:** MLP image classification on MNIST; CNN image classification on CIFAR-10 (TensorFlow/Keras)
 - **Recommenders & time series:** matrix factorization (SVD), chronological splits, return targets, naive-baseline benchmarking
+- **Imbalanced & sensor data:** PR-AUC and recall-first evaluation for rare events (fraud), class weighting, split-by-person evaluation for wearable sensor data
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
