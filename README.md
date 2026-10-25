@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Ten working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -9,6 +9,11 @@ Five working machine-learning projects, built from scratch and documented end-to
 | 3 | [Sentiment Analysis](03-sentiment-analysis/) | NLP | **89.9% accuracy** on IMDb 50,000 reviews (TF-IDF + Logistic Regression) |
 | 4 | [Fake News Detection](04-fake-news-detection/) | NLP | **97.9% accuracy** on 32,470 full articles (LIAR short-statement version: 60.9% — wording is not proof) |
 | 5 | [Handwritten Digit Recognition (MNIST)](05-mnist-digit-recognition/) | Deep Learning | **96.16% accuracy** (Neural Network, 10,000-image test set) |
+| 6 | [Iris Flower Classification](06-iris-classification/) | Classification | **94.7% accuracy** (Logistic Regression) |
+| 7 | [SMS Spam Detection](07-sms-spam-detection/) | NLP | **97.5% accuracy** (Logistic Regression) |
+| 8 | [Breast Cancer Classification](08-breast-cancer-classification/) | Classification | **98.6% accuracy** (Logistic Regression) |
+| 9 | [Wine Quality Prediction](09-wine-quality-prediction/) | Classification | **94.0% accuracy** (Random Forest) |
+| 10 | [Heart Disease Prediction](10-heart-disease-prediction/) | Classification | **86.8% accuracy** (Logistic Regression + Random Forest) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
