@@ -1,26 +1,19 @@
-# Sentiment Analysis 💬
+# Sentiment Analysis — IMDb 50,000 Reviews
 
-Reading a short review and deciding whether it is **positive** or **negative** — the same technology businesses use to monitor customer feedback at scale.
+**What it does:** Reads a full movie review and predicts whether it is **positive** or **negative**.
 
-## Result
-**Accuracy: 82.2%** on 550 held-out reviews (2,748 usable labelled sentences from IMDb, Yelp and Amazon — UCI Sentiment Labelled Sentences dataset).
+**Dataset (BIG):** the official IMDb Large Movie Review Dataset — **50,000 full-length reviews** (25,000 train / 25,000 test, perfectly balanced).
 
-Demo (from the notebook):
-- POSITIVE ← "This product is amazing, I absolutely love it!"
-- NEGATIVE ← "Worst experience ever, the food was cold and the staff was rude."
-- POSITIVE ← "The movie was brilliant, great acting and a beautiful story."
-- NEGATIVE ← "Total waste of money, I will never buy this again."
+**Approach:** Clean the text → TF-IDF (30,000 unigram+bigram features) → Logistic Regression.
 
-## How it works
-1. Combine the IMDb, Yelp and Amazon labelled-sentence files; drop rows corrupted by stray tab characters
-2. Convert text to TF-IDF features (1–2 word phrases, 5,000 features) so "not good" is captured as one signal
-3. Train Logistic Regression on an 80/20 stratified split
-4. Evaluate (accuracy, precision, recall, F1) and test on fresh sentences
+**Verified result (executed notebook):**
+- **Accuracy: 89.9%** on 25,000 unseen test reviews
+- Precision/recall ≈ 0.90 for both classes
+- Live demo: 3 of 4 sample reviews classified correctly (the deliberately mixed "okay… but good ending" review fooled it — an honest miss)
 
-## Why it matters
-This exact workflow powers review monitoring, customer-feedback dashboards and brand-sentiment tracking for marketing teams.
+> An earlier small version of this project (2,748 short sentences) scored 82.2%. More data + full-length reviews → a clearly stronger model.
 
-## Run it
-Open `sentiment_analysis.ipynb` in Jupyter or Google Colab and run all cells — the notebook downloads the dataset itself.
+![Confusion matrix](confusion_matrix.png)
 
-**Tools:** Python, pandas, scikit-learn (TF-IDF + Logistic Regression)
+**Files:** `sentiment_analysis.ipynb` — notebook with outputs · `confusion_matrix.png`
+**Run it:** Open the notebook in Google Colab or Jupyter — it downloads the dataset itself (parquet from Hugging Face).
