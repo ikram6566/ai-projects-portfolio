@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Twenty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Thirty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -29,6 +29,11 @@ Twenty-five working machine-learning projects, built from scratch and documented
 | 23 | [Human Activity Recognition](23-human-activity-recognition/) | Classification / Sensors | **95.5% accuracy** (Logistic Regression, UCI HAR, tested on unseen volunteers) |
 | 24 | [Mushroom Classification](24-mushroom-classification/) | Classification | **100% accuracy, 100% poisonous recall** (UCI Mushroom, 8,124 specimens — near-separable dataset, stated plainly) |
 | 25 | [Bike Sharing Demand](25-bike-sharing-demand/) | Regression | **R² 0.918, MAE 33 bikes/hour** (Random Forest, UCI Bike Sharing, 17,379 hours) |
+| 26 | [Online Shoppers Intention](26-online-shoppers-intention/) | Classification / E-commerce | **89.9% accuracy** (Random Forest; buyer recall 53.2%, UCI Online Shoppers, 12,330 sessions) |
+| 27 | [Concrete Strength Prediction](27-concrete-strength-prediction/) | Regression | **R² 0.891, MAE 3.7 MPa** (Random Forest, UCI Concrete, 1,030 mixes) |
+| 28 | [Parkinson's Detection](28-parkinsons-detection/) | Classification / Health | **93.9% accuracy** (Logistic Regression, voice measurements — small-n caveat in README) |
+| 29 | [20 Newsgroups Classification](29-newsgroups-classification/) | NLP | **82.6% accuracy** (TF-IDF + Logistic Regression, 20 topics, 18,846 posts) |
+| 30 | [MNIST Digit CNN](30-mnist-digit-cnn/) | Deep Learning / CV | **98.86% accuracy** (small CNN — vs 96.2% for the MLP in project 05, same data) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -37,6 +42,7 @@ Twenty-five working machine-learning projects, built from scratch and documented
 - **Neural networks:** MLP image classification on MNIST; CNN image classification on CIFAR-10 (TensorFlow/Keras)
 - **Recommenders & time series:** matrix factorization (SVD), chronological splits, return targets, naive-baseline benchmarking
 - **Imbalanced & sensor data:** PR-AUC and recall-first evaluation for rare events (fraud), class weighting, split-by-person evaluation for wearable sensor data
+- **Applied domains:** e-commerce session behaviour, materials-strength regression, voice-biomarker classification with explicit small-sample caveats, and a CNN-vs-MLP architecture comparison on identical data
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
