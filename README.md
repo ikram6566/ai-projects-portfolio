@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Thirty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Thirty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -34,6 +34,11 @@ Thirty working machine-learning projects, built from scratch and documented end-
 | 28 | [Parkinson's Detection](28-parkinsons-detection/) | Classification / Health | **93.9% accuracy** (Logistic Regression, voice measurements — small-n caveat in README) |
 | 29 | [20 Newsgroups Classification](29-newsgroups-classification/) | NLP | **82.6% accuracy** (TF-IDF + Logistic Regression, 20 topics, 18,846 posts) |
 | 30 | [MNIST Digit CNN](30-mnist-digit-cnn/) | Deep Learning / CV | **98.86% accuracy** (small CNN — vs 96.2% for the MLP in project 05, same data) |
+| 31 | [Airfoil Noise Prediction](31-airfoil-noise-prediction/) | Regression | **R² 0.932, MAE 1.32 dB** (Random Forest, NASA airfoil wind-tunnel data, 1,503 runs) |
+| 32 | [Energy Efficiency Prediction](32-energy-efficiency-prediction/) | Regression | **R² 0.998, MAE 0.33** (Random Forest, heating load of 768 simulated buildings) |
+| 33 | [Beijing PM2.5 Prediction](33-beijing-pm25-prediction/) | Regression | **R² 0.840, MAE 22.3 µg/m³** (Random Forest, 41,757 hourly weather/pollution records) |
+| 34 | [Car Price Prediction](34-car-price-prediction/) | Regression | **R² 0.893, MAE $1,962** (Random Forest, UCI Automobile, 201 cars) |
+| 35 | [Dry Bean Classification](35-dry-bean-classification/) | Classification | **92.4% accuracy** (Logistic Regression; Random Forest 92.0%, 7 bean varieties, 13,611 beans) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -43,6 +48,7 @@ Thirty working machine-learning projects, built from scratch and documented end-
 - **Recommenders & time series:** matrix factorization (SVD), chronological splits, return targets, naive-baseline benchmarking
 - **Imbalanced & sensor data:** PR-AUC and recall-first evaluation for rare events (fraud), class weighting, split-by-person evaluation for wearable sensor data
 - **Applied domains:** e-commerce session behaviour, materials-strength regression, voice-biomarker classification with explicit small-sample caveats, and a CNN-vs-MLP architecture comparison on identical data
+- **Physical & environmental data:** aeroacoustics (NASA wind tunnel), building energy simulation, air-quality nowcasting from weather, and honest split-method caveats (random vs time-based)
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
