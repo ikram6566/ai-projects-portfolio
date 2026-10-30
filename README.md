@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Forty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Fifty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -49,6 +49,11 @@ Forty-five working machine-learning projects, built from scratch and documented 
 | 43 | [Glass Type Identification](43-glass-type-identification/) | Classification | **83.3% accuracy** (Random Forest; Logistic Regression 70.4%, UCI Glass, 214 samples, 6 of 7 classes present) |
 | 44 | [Online News Popularity Prediction](44-online-news-popularity/) | Regression | **R² 0.158 on log(shares), MAE 2,355 shares** (Random Forest, UCI Online News Popularity, 39,644 articles — an honestly weak-signal problem, stated plainly) |
 | 45 | [Waveform Classification](45-waveform-classification/) | Classification | **86.8% accuracy** (Logistic Regression; Random Forest 84.8%, UCI Waveform, 5,000 samples — near the known ~86% Bayes rate) |
+| 46 | [Credit Approval Prediction](46-credit-approval/) | Classification | **84.4% accuracy** (Random Forest; Logistic Regression 83.8%, UCI Credit Approval, 690 applications, anonymised features) |
+| 47 | [Banknote Authentication](47-banknote-authentication/) | Classification | **99.4% accuracy** (Random Forest; Logistic Regression 97.4%, UCI Banknote, 1,372 notes, wavelet image statistics) |
+| 48 | [Page Blocks Classification](48-page-blocks-classification/) | Classification | **97.8% accuracy** (Random Forest; Logistic Regression 96.6%, UCI Page Blocks, 5,473 blocks — ~90% are text, so the headline flatters, stated plainly) |
+| 49 | [Vehicle Silhouette Classification](49-vehicle-silhouettes/) | Classification | **82.1% accuracy** (Logistic Regression; Random Forest 73.6%, UCI Statlog Vehicle, 845 vehicles, 4 types) |
+| 50 | [Yeast Protein Localisation](50-yeast-classification/) | Classification / Biology | **64.7% accuracy** (Random Forest; Logistic Regression 59.3%, UCI Yeast, 1,484 proteins, 10 sites — rare classes honestly weak, one has only 5 samples) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -61,6 +66,7 @@ Forty-five working machine-learning projects, built from scratch and documented 
 - **Physical & environmental data:** aeroacoustics (NASA wind tunnel), building energy simulation, air-quality nowcasting from weather, and honest split-method caveats (random vs time-based)
 - **Large & industrial tabular data:** 581k-row forest-cover classification, steel-mill fault diagnosis, predictive emission monitoring (PEMS), and classic OCR feature engineering across 26 classes
 - **Materials & signal data:** superconductivity critical-temperature regression, radar-return classification, glass identification on a tiny dataset, social-media popularity prediction with an honestly weak signal, and waveform classification at the theoretical Bayes limit
+- **Classic benchmarks & messy data:** anonymised credit decisions with missing values, banknote forensics from wavelet statistics, document page-block typing under heavy class imbalance, vehicle silhouettes, and protein localisation where the rarest class has five samples
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
