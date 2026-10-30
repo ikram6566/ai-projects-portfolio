@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Forty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Forty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -44,6 +44,11 @@ Forty working machine-learning projects, built from scratch and documented end-t
 | 38 | [Abalone Age Prediction](38-abalone-age-prediction/) | Regression | **R² 0.537, MAE 1.55 rings** (Random Forest; Linear Regression R² 0.546 — a famously hard dataset, UCI Abalone, 4,177 specimens) |
 | 39 | [Gas Turbine CO Emission Prediction](39-gas-turbine-emissions/) | Regression | **R² 0.777, MAE 0.484 mg/m³** (Random Forest; Linear Regression R² 0.567, UCI Gas Turbine, 36,733 hourly records) |
 | 40 | [Letter Recognition](40-letter-recognition/) | Classification / OCR | **97.0% accuracy** (Random Forest, 26 letters; Logistic Regression 77.1%, UCI Letter Recognition, 20,000 letters) |
+| 41 | [Superconductor Temperature Prediction](41-superconductor-temperature/) | Regression | **R² 0.925, MAE 5.18 K** (Random Forest; Linear Regression R² 0.728, UCI Superconductivity, 21,263 materials, 81 features) |
+| 42 | [Ionosphere Radar Classification](42-ionosphere-radar/) | Classification | **93.2% accuracy** (Random Forest; Logistic Regression 89.8%, UCI Ionosphere, 351 radar returns) |
+| 43 | [Glass Type Identification](43-glass-type-identification/) | Classification | **83.3% accuracy** (Random Forest; Logistic Regression 70.4%, UCI Glass, 214 samples, 6 of 7 classes present) |
+| 44 | [Online News Popularity Prediction](44-online-news-popularity/) | Regression | **R² 0.158 on log(shares), MAE 2,355 shares** (Random Forest, UCI Online News Popularity, 39,644 articles — an honestly weak-signal problem, stated plainly) |
+| 45 | [Waveform Classification](45-waveform-classification/) | Classification | **86.8% accuracy** (Logistic Regression; Random Forest 84.8%, UCI Waveform, 5,000 samples — near the known ~86% Bayes rate) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -55,6 +60,7 @@ Forty working machine-learning projects, built from scratch and documented end-t
 - **Applied domains:** e-commerce session behaviour, materials-strength regression, voice-biomarker classification with explicit small-sample caveats, and a CNN-vs-MLP architecture comparison on identical data
 - **Physical & environmental data:** aeroacoustics (NASA wind tunnel), building energy simulation, air-quality nowcasting from weather, and honest split-method caveats (random vs time-based)
 - **Large & industrial tabular data:** 581k-row forest-cover classification, steel-mill fault diagnosis, predictive emission monitoring (PEMS), and classic OCR feature engineering across 26 classes
+- **Materials & signal data:** superconductivity critical-temperature regression, radar-return classification, glass identification on a tiny dataset, social-media popularity prediction with an honestly weak signal, and waveform classification at the theoretical Bayes limit
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
