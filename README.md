@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Thirty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Forty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -39,6 +39,11 @@ Thirty-five working machine-learning projects, built from scratch and documented
 | 33 | [Beijing PM2.5 Prediction](33-beijing-pm25-prediction/) | Regression | **R² 0.840, MAE 22.3 µg/m³** (Random Forest, 41,757 hourly weather/pollution records) |
 | 34 | [Car Price Prediction](34-car-price-prediction/) | Regression | **R² 0.893, MAE $1,962** (Random Forest, UCI Automobile, 201 cars) |
 | 35 | [Dry Bean Classification](35-dry-bean-classification/) | Classification | **92.4% accuracy** (Logistic Regression; Random Forest 92.0%, 7 bean varieties, 13,611 beans) |
+| 36 | [Forest Cover Type Classification](36-forest-cover-type/) | Classification | **90.8% accuracy** (Random Forest; Logistic Regression 72.4%, UCI Covertype, 581,012 patches, 7 cover types) |
+| 37 | [Steel Plate Fault Classification](37-steel-plates-faults/) | Classification / Industrial QC | **79.6% accuracy** (Random Forest; Logistic Regression 72.2%, UCI Steel Plates Faults, 1,941 plates, 7 fault types) |
+| 38 | [Abalone Age Prediction](38-abalone-age-prediction/) | Regression | **R² 0.537, MAE 1.55 rings** (Random Forest; Linear Regression R² 0.546 — a famously hard dataset, UCI Abalone, 4,177 specimens) |
+| 39 | [Gas Turbine CO Emission Prediction](39-gas-turbine-emissions/) | Regression | **R² 0.777, MAE 0.484 mg/m³** (Random Forest; Linear Regression R² 0.567, UCI Gas Turbine, 36,733 hourly records) |
+| 40 | [Letter Recognition](40-letter-recognition/) | Classification / OCR | **97.0% accuracy** (Random Forest, 26 letters; Logistic Regression 77.1%, UCI Letter Recognition, 20,000 letters) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
@@ -49,6 +54,7 @@ Thirty-five working machine-learning projects, built from scratch and documented
 - **Imbalanced & sensor data:** PR-AUC and recall-first evaluation for rare events (fraud), class weighting, split-by-person evaluation for wearable sensor data
 - **Applied domains:** e-commerce session behaviour, materials-strength regression, voice-biomarker classification with explicit small-sample caveats, and a CNN-vs-MLP architecture comparison on identical data
 - **Physical & environmental data:** aeroacoustics (NASA wind tunnel), building energy simulation, air-quality nowcasting from weather, and honest split-method caveats (random vs time-based)
+- **Large & industrial tabular data:** 581k-row forest-cover classification, steel-mill fault diagnosis, predictive emission monitoring (PEMS), and classic OCR feature engineering across 26 classes
 - **Evaluation discipline:** held-out test sets, confusion matrices, MAE/RMSE/R², no cherry-picked demos — including publishing the project whose models lost to the baseline
 
 ## Tools
