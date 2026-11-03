@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Fifty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Fifty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -54,6 +54,11 @@ Fifty working machine-learning projects, built from scratch and documented end-t
 | 48 | [Page Blocks Classification](48-page-blocks-classification/) | Classification | **97.8% accuracy** (Random Forest; Logistic Regression 96.6%, UCI Page Blocks, 5,473 blocks — ~90% are text, so the headline flatters, stated plainly) |
 | 49 | [Vehicle Silhouette Classification](49-vehicle-silhouettes/) | Classification | **82.1% accuracy** (Logistic Regression; Random Forest 73.6%, UCI Statlog Vehicle, 845 vehicles, 4 types) |
 | 50 | [Yeast Protein Localisation](50-yeast-classification/) | Classification / Biology | **64.7% accuracy** (Random Forest; Logistic Regression 59.3%, UCI Yeast, 1,484 proteins, 10 sites — rare classes honestly weak, one has only 5 samples) |
+| 51 | [Seeds Wheat Variety Classification](51-seeds-classification/) | Classification | **94.34% accuracy** (Logistic Regression) |
+| 52 | [Sonar Mines vs Rocks Classification](52-sonar-classification/) | Classification | **86.54% accuracy** (Random Forest) |
+| 53 | [Ecoli Protein Localisation Classification](53-ecoli-classification/) | Classification | **88.10% accuracy** (Logistic Regression) |
+| 54 | [Image Segmentation Classification](54-image-segmentation/) | Classification | **96.89% accuracy** (Random Forest) |
+| 55 | [MAGIC Gamma Telescope Classification](55-magic-gamma-telescope/) | Classification | **88.35% accuracy** (Random Forest) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
