@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Fifty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Sixty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -59,6 +59,11 @@ Fifty-five working machine-learning projects, built from scratch and documented 
 | 53 | [Ecoli Protein Localisation Classification](53-ecoli-classification/) | Classification | **88.10% accuracy** (Logistic Regression) |
 | 54 | [Image Segmentation Classification](54-image-segmentation/) | Classification | **96.89% accuracy** (Random Forest) |
 | 55 | [MAGIC Gamma Telescope Classification](55-magic-gamma-telescope/) | Classification | **88.35% accuracy** (Random Forest) |
+| 56 | [Wine Cultivar Classification](56-wine-classification/) | Classification | **100% accuracy** (Random Forest and Logistic Regression tied) |
+| 57 | [Zoo Animal Type Classification](57-zoo-classification/) | Classification | **92.31% accuracy** (Random Forest and Logistic Regression tied) |
+| 58 | [Dermatology Disease Classification](58-dermatology-classification/) | Classification | **96.74% accuracy** (Random Forest and Logistic Regression tied) |
+| 59 | [Balance Scale Classification](59-balance-scale-classification/) | Classification | **86.62% accuracy** (Logistic Regression) |
+| 60 | [Haberman Survival Classification](60-haberman-survival/) | Classification | **74.03% accuracy** (Logistic Regression, equals majority baseline) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
