@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Sixty working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Sixty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -64,6 +64,11 @@ Sixty working machine-learning projects, built from scratch and documented end-t
 | 58 | [Dermatology Disease Classification](58-dermatology-classification/) | Classification | **96.74% accuracy** (Random Forest and Logistic Regression tied) |
 | 59 | [Balance Scale Classification](59-balance-scale-classification/) | Classification | **86.62% accuracy** (Logistic Regression) |
 | 60 | [Haberman Survival Classification](60-haberman-survival/) | Classification | **74.03% accuracy** (Logistic Regression, equals majority baseline) |
+| 61 | [Blood Transfusion Service Classification](61-blood-transfusion/) | Classification | **77.01% accuracy** (Logistic Regression, only 0.5 pt above majority baseline) |
+| 62 | [Spambase Spam Classification](62-spambase-classification/) | Classification | **95.31% accuracy** (Random Forest) |
+| 63 | [Pen Digits Classification](63-pendigits-classification/) | Classification | **99.05% accuracy** (Random Forest) |
+| 64 | [Vertebral Column Classification](64-vertebral-column/) | Classification | **80.77% accuracy** (Random Forest and Logistic Regression tied) |
+| 65 | [Car Evaluation Classification](65-car-evaluation/) | Classification | **97.22% accuracy** (Random Forest) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
