@@ -95,4 +95,17 @@ Python · pandas · NumPy · scikit-learn · matplotlib · Jupyter / Google Cola
 ## About me
 I'm **Ikram ur Rehman** — BS Computer Science (COMSATS), 3+ years as a Marketing Professional & Technical Expert (SEO, Meta/Google Ads, CRM & data, websites, IT support). I build practical AI and automation on top of that foundation. More on my [profile](https://github.com/ikram6566).
 
+## Connect with me
+- LinkedIn: [Ikram Ur Rehman](https://www.linkedin.com/in/ikram-ur-rehman/)
+- Instagram: [@ikram.rehman300](https://www.instagram.com/ikram.rehman300)
+- Facebook: [PRISM MEDIA](https://www.facebook.com/PrismMediaWorld)
+- TikTok: [@stargate_comand_atlantis](https://www.tiktok.com/@stargate_comand_atlantis)
+- YouTube: [Ikram ur Rehman](https://www.youtube.com/@ikramrehmn) · [PocketPulse](https://www.youtube.com/@PocketPulseFacts) · [Toto & Friends Rhymes](https://www.youtube.com/@TotoAndFriendsRhymes)
+- X: [@ikramurrehman65](https://x.com/ikramurrehman65)
+- Fiverr: [ikramrehman300](https://www.fiverr.com/ikramrehman300)
+- Freelancer: [@Ikram6566](https://www.freelancer.com/u/Ikram6566)
+- GitHub: [ikram6566](https://github.com/ikram6566)
+- Portfolio Website: [AI Projects App](https://ai-projects-app-ikrteh-9551.vercel.app)
+- Agency Website: [AI Freelancing Agency](https://ai-freelancing-agency-nine.vercel.app)
+
 *Project ideas selected from my curated [500+ AI Projects with Code](https://github.com/ikram6566/500-AI-Projects-with-Code) collection (Data-Flair beginner lists); all code here is my own build.*
