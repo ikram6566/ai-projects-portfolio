@@ -1,6 +1,6 @@
 # AI Projects Portfolio 🤖
 
-Sixty-five working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
+Seventy working machine-learning projects, built from scratch and documented end-to-end — data cleaning, model training, honest evaluation, and what I learned from each. Every notebook is self-contained: it downloads its own dataset, so you can run any of them in Google Colab in one click-through.
 
 | # | Project | Type | Result |
 |---|---|---|---|
@@ -69,6 +69,11 @@ Sixty-five working machine-learning projects, built from scratch and documented 
 | 63 | [Pen Digits Classification](63-pendigits-classification/) | Classification | **99.05% accuracy** (Random Forest) |
 | 64 | [Vertebral Column Classification](64-vertebral-column/) | Classification | **80.77% accuracy** (Random Forest and Logistic Regression tied) |
 | 65 | [Car Evaluation Classification](65-car-evaluation/) | Classification | **97.22% accuracy** (Random Forest) |
+| 66 | [Optical Digits Classification](66-optical-digits/) | Classification | **98.93% accuracy** (Random Forest) |
+| 67 | [Landsat Satellite Classification](67-landsat-satellite/) | Classification | **90.93% accuracy** (Random Forest) |
+| 68 | [Shuttle Classification](68-shuttle-classification/) | Classification | **99.86% accuracy** (Random Forest — rare classes have ~3 test readings each, stated plainly) |
+| 69 | [Tic-Tac-Toe Endgame Classification](69-tic-tac-toe/) | Classification | **97.92% accuracy** (Logistic Regression) |
+| 70 | [Mammographic Mass Classification](70-mammographic-mass/) | Classification | **81.74% accuracy** (Logistic Regression, educational only — not a medical tool) |
 
 ## Skills demonstrated
 - **Data work:** cleaning, missing values, feature engineering, one-hot encoding (pandas)
